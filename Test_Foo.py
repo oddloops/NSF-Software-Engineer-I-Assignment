@@ -22,3 +22,11 @@ class TestFoo(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
+
+'''
+I created tests around the different radius inputs. 
+Assuming users will only input valid numbers, there are 3 possible inputs, postive, negative, and 0.
+Positive inputs will always be valid (Real Numbers)
+A 0 radius should simply result in 0 volume
+But a negative input should be invalid -> a radius cannot be negative.
+'''
